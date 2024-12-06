@@ -1,0 +1,99 @@
+.post-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Aligns items to the start of the flex container (left side) */
+    align-items: flex-start;
+    margin-top: 80px;
+}
+
+.post-container {
+    border: 0.5px solid black; /* Adds the border style, width, and color */
+    margin: 0 10px 10px 10px;
+    position: relative;
+    width: 300px;
+    flex-basis: 300px;
+    overflow: auto;
+    .post-content {
+        width: 100%; 
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+}
+
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+
+
+.comment-container {
+    background-color: transparent; 
+    border: none; 
+    margin-top: 0; 
+}
+
+.post-info {
+    margin: 0; 
+}
+
+.text-box {
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+    background-color: white;
+}
+
+.hidden {
+    display: none;
+}
+
+.image-container {
+    width: 300px; 
+    height: 200px; 
+    overflow: hidden; 
+}
+
+.image-container img {
+    width: 100%; 
+    height: auto;
+}
+
+
+body {
+    background-color: rgb(209, 180, 195);
+    margin: 0;
+    padding: 0;
+}
+.delete-link {
+    text-decoration: none; 
+    color: white; 
+    background-color: rgb(242, 134, 242) ; 
+    border: 1px solid  rgb(242, 134, 242) ; 
+    padding: 8px 16px; /* Adds padding */
+    border-radius: 4px; 
+    margin-right:10px;
+}
+
+/* Hover effect */
+.delete-link:hover {
+    background-color: rgb(238, 68, 141); /* Changes background color on hover */
+}
+.comment-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* Change text color */
+    background-color: rgb(242, 134, 242) ; /* Sets background color */
+    border: 1px solid  rgb(242, 134, 242) ; 
+    padding: 8px 16px; 
+    border-radius: 4px;
+}
+
+/* Hover effect */
+.comment-link:hover {
+    background-color: rgb(238, 68, 141); /* Changes the background color on hover */
+}
+
